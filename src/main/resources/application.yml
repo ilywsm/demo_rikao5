@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: demo_rikao5
+  datasource:
+    url: jdbc:mysql://localhost:3306/1703aa?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    database: mysql
